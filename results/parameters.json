@@ -1,0 +1,124 @@
+{
+  "epsg": 32648,
+  "cell_size_m": 30,
+  "outlet_lon": 102.22884023035444,
+  "outlet_lat": 37.928463610964485,
+  "outlet_snap_m": 12.97776850408901,
+  "catchment_area_km2": 1430.8677,
+  "catchment_HI": 0.45310699261768933,
+  "jiutiaoling_area_km2": 1087.8534,
+  "jiutiaoling_snap_m": 228.51912449009779,
+  "river_length_km": 985.94132403867548,
+  "main_trunk_length_km": 79.485452326897686,
+  "matlab_version": "25.2.0.2998904 (R2025b)",
+  "mountain_boundary_file": "results\\mountain_boundary_utm.csv",
+  "config": {
+    "epsg": 32648,
+    "cellSize_m": 30,
+    "outlet_lonlat": [
+      102.2287,
+      37.9285
+    ],
+    "station_lonlat": [
+      102.05,
+      37.8666667
+    ],
+    "threshold_km2": 1,
+    "theta": 0.45,
+    "referenceArea_m2": 1.0E+6,
+    "reachLength_m": 1000,
+    "reliefWindow_cells": 101,
+    "excludeOutletReach_m": 2500,
+    "knickpointTolerance_m": 30,
+    "mountainBoundaryFile": "results\\mountain_boundary_utm.csv",
+    "mountainNorth_lonlat": [
+      [
+        101.74,
+        37.626
+      ],
+      [
+        101.77,
+        37.575
+      ],
+      [
+        101.8,
+        37.548
+      ],
+      [
+        101.84,
+        37.555
+      ],
+      [
+        101.88,
+        37.554
+      ],
+      [
+        101.92,
+        37.552
+      ],
+      [
+        101.96,
+        37.563
+      ],
+      [
+        102.01,
+        37.581
+      ],
+      [
+        102.04,
+        37.603
+      ]
+    ],
+    "mountainSouth_lonlat": [
+      [
+        101.74,
+        37.37
+      ],
+      [
+        101.78,
+        37.352
+      ],
+      [
+        101.82,
+        37.338
+      ],
+      [
+        101.86,
+        37.326
+      ],
+      [
+        101.9,
+        37.31
+      ],
+      [
+        101.94,
+        37.302
+      ],
+      [
+        101.98,
+        37.296
+      ],
+      [
+        102.04,
+        37.291
+      ]
+    ],
+    "swath_longitudes": [
+      101.79,
+      101.88,
+      101.98
+    ],
+    "swathWidth_m": 3000,
+    "swathBin_m": 300,
+    "thetaSensitivity": [
+      0.35,
+      0.45,
+      0.55
+    ],
+    "thresholdSensitivity_km2": [
+      0.5,
+      1,
+      2
+    ]
+  }
+}

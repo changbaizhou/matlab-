@@ -1,0 +1,7 @@
+# Data, cache, and third-party dependencies
+*.mat
+*.tif
+*.tiff
+*.grd
+*.mlx
+vendor/
